@@ -11,7 +11,7 @@ Author URI: https://jony.dev
 define( 'WC_CART_GIFTS_PLUGIN_FILE', __FILE__ );
 define( 'WC_CART_GIFTS_DIR_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WC_CART_GIFTS_PLUGIN_URL', plugins_url('', __FILE__ ) );
-define( 'WC_CART_GIFTS_ASSETS_URL', WC_CART_GIFTS_PLUGIN_URL . '/assets' );
+define( 'WC_CART_GIFTS_ASSETS_URL', WC_CART_GIFTS_PLUGIN_URL . '/app/assets' );
 define( 'WC_CART_GIFTS_APP_PATH', WC_CART_GIFTS_DIR_PATH . 'app' . DIRECTORY_SEPARATOR );
 
 require_once( WC_CART_GIFTS_APP_PATH . 'application.class.php' );

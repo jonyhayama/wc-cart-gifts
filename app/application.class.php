@@ -80,14 +80,14 @@ class wcCartGifts{
 
   public function add_hooks(){
 		add_action( 'plugins_loaded', array( $this, 'load_plugin_textdomain') );
-		// add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts'), 999 );
+		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts'), 999 );
 		// add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue_scripts'), 999 );
   }
   
   public function enqueue_scripts(){
 		// wp_enqueue_style( 'wc-cart-gifts-style', WC_CART_GIFTS_ASSETS_URL . '/css/frontend.css', array(), '0.1.7', 'all' );
 
-    // wp_enqueue_script( 'wc-cart-gifts-script', WC_CART_GIFTS_ASSETS_URL . '/js/frontend.js', array('jquery'), '0.1.5', true );
+    wp_enqueue_script( 'wc-cart-gifts-script', WC_CART_GIFTS_ASSETS_URL . '/js/frontend.js', array('jquery'), '0.0.1', true );
     // wp_localize_script( 'wc-cart-gifts-script', 'WC_CART_GIFTS', [ 'ajax_url' => admin_url( 'admin-ajax.php' ) ] );
 	}
 
