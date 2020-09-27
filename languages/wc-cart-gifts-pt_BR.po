@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Cart Gifts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-27 12:06+0000\n"
+"PO-Revision-Date: 2020-09-27 12:10+0000\n"
+"Last-Translator: Jony Hayama\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.4.2"
+
+#: app/application.class.php:49
+msgid ""
+"WC Cart Gifts depends on Advanced Custom Fields PRO, please activate it."
+msgstr ""
+"WC Cart Gifts depende do Advanced Custom Fields PRO, por favor, ative-o."
+
+#: app/model/cart-gift.class.php:56
+msgctxt "Post Type General Name"
+msgid "Cart Gifts"
+msgstr "Brindes de Carrinho"
+
+#: app/model/cart-gift.class.php:57
+msgctxt "Post Type Singular Name"
+msgid "Cart Gift"
+msgstr "Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:58 app/model/cart-gift.class.php:63
+#: app/model/cart-gift.class.php:87
+msgid "Cart Gifts"
+msgstr "Brindes de Carrinho"
+
+#: app/model/cart-gift.class.php:59 app/model/cart-gift.class.php:86
+msgid "Cart Gift"
+msgstr "Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:60
+msgid "Cart Gift Archives"
+msgstr "Arquivo de Brindes de Carrinho"
+
+#: app/model/cart-gift.class.php:61
+msgid "Cart Gift Attributes"
+msgstr "Atributos de Brindes de Carrinho"
+
+#: app/model/cart-gift.class.php:62
+msgid "Parent Cart Gift:"
+msgstr "Brinde de Carrinho pai:"
+
+#: app/model/cart-gift.class.php:64 app/model/cart-gift.class.php:65
+msgid "Add New Cart Gift"
+msgstr "Adicionar Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:66
+msgid "New Cart Gift"
+msgstr "Novo Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:67
+msgid "Edit Cart Gift"
+msgstr "Editar Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:68
+msgid "Update Cart Gift"
+msgstr "Atualizar Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:69
+msgid "View Cart Gift"
+msgstr "Ver Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:70
+msgid "View Cart Gifts"
+msgstr "Ver Brindes de Carrinho"
+
+#: app/model/cart-gift.class.php:71
+msgid "Search Cart Gift"
+msgstr "Buscar Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:72
+msgid "Not found"
+msgstr "Não encontrado"
+
+#: app/model/cart-gift.class.php:73
+msgid "Not found in Trash"
+msgstr "Não encontrado na Lixeira"
+
+#: app/model/cart-gift.class.php:74
+msgid "Featured Image"
+msgstr "Imagem Destacada"
+
+#: app/model/cart-gift.class.php:75
+msgid "Set featured image"
+msgstr "Adicionar Imagem Destacada"
+
+#: app/model/cart-gift.class.php:76
+msgid "Remove featured image"
+msgstr "Remover imagem destacada"
+
+#: app/model/cart-gift.class.php:77
+msgid "Use as featured image"
+msgstr "Usar como Imagem Destacada"
+
+#: app/model/cart-gift.class.php:78
+msgid "Insert into Cart Gift"
+msgstr "Inserir no Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:79
+msgid "Uploaded to this Cart Gift"
+msgstr "Enviar para este Brinde de Carrinho"
+
+#: app/model/cart-gift.class.php:80
+msgid "Cart Gifts list"
+msgstr "Lista de Brindes de Carrinho"
+
+#: app/model/cart-gift.class.php:81
+msgid "Cart Gifts list navigation"
+msgstr "Navegação em lista de Brindes de Carrinho"
+
+#: app/model/cart-gift.class.php:82
+msgid "Filter Cart Gifts list"
+msgstr "Filtrar Brindes de Carrinho"
+
+#: app/views/cart/gift_rows.php:14 app/views/admin/order/gift_rows.php:13
+msgid "Free"
+msgstr "Grátis"
+
+#. Name of the plugin
+#. Description of the plugin
+msgid "WooCommerce Cart Gifts"
+msgstr "WooCommerce Cart Gifts"
+
+#. Author of the plugin
+msgid "Jony Hayama"
+msgstr "Jony Hayama"
+
+#. Author URI of the plugin
+msgid "https://jony.dev"
+msgstr "https://jony.dev"
