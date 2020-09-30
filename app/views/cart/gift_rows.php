@@ -13,6 +13,6 @@ while( $the_query->have_posts() ){ $the_query->the_post(); ?>
     </td>
     <td class="product-price"><?php _e( 'Free', 'wc-cart-gifts' ); ?></td>
     <td class="product-quantity">1</td>
-    <td class="product-subtotal"><?php echo wc_price( WC()->cart->get_subtotal() ); ?></td>
+    <td class="product-subtotal"><?php echo wc_price( 0 ); ?></td>
   </tr>
 <?php }
