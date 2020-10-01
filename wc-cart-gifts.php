@@ -27,3 +27,17 @@ function wc_cart_gifts( $module = '' ){
 	return $_wcCartGifts_obj;
 }
 wc_cart_gifts();
+
+
+require 'lib/plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/jonyhayama/wc-cart-gifts',
+	__FILE__,
+	'wc-cart-gifts'
+);
+
+//Optional: If you're using a private repository, specify the access token like this:
+// $myUpdateChecker->setAuthentication('your-token-here');
+
+//Optional: Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('production');
